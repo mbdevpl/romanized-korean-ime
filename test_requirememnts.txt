@@ -1,0 +1,8 @@
+docutils
+git+https://github.com/youknowone/hangul-romanize
+git+https://github.com/zhangkaiyulw/kroman-py  # kroman
+pip >= 9.0
+pygments
+setuptools >= 20.5
+wheel
+-rrequirements.txt
