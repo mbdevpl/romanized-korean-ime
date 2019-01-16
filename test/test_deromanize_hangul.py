@@ -14,17 +14,10 @@ import kroman
 # import networkx
 # import pandas as pd
 
-from deromanize_hangul import \
-    IGNORED_CHARACTERS, \
-    to_jamo_groups, jamo_to_hangul, to_hangul
+from romanized_korean_ime.deromanize_hangul import \
+    IGNORED_CHARACTERS, to_jamo_groups, jamo_to_hangul, to_hangul
 
 _LOG = logging.getLogger(__name__)
-
-# UNAMBIGUOUS_ROMANIZEDD = []
-
-# AMBIGUOUS_ROMANIZED = []
-
-# ROMANIZED = UNAMBIGUOUS_ROMANIZED + AMBIGUOUS_ROMANIZED
 
 UNAMBIGUOUS_STANDARD_EXAMPLES = {
     'san-sung': ('ㅅㅏㄴ-ㅅㅜㅇ', '산숭'),
